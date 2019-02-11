@@ -1,0 +1,221 @@
+body {
+    
+    font-family: Roboto;
+    padding-bottom: 10rem;    
+}
+
+textarea {
+    resize: none;
+}
+
+.progress {
+    margin-bottom: 1rem;
+}
+
+.site-icons {
+    font-size: 2.2rem;
+    border-radius: 50% !important;
+    transition: transform 1s;    
+}
+
+.site-icons:hover {
+    transform: rotate(360deg);
+}
+
+.jumbotron hr {
+    border-color: white;
+    width: 40rem;
+    margin-left: 0;
+}
+
+.order-odd {
+    background: white;
+    color:  #343a40;
+    margin-bottom: 5rem;
+}
+
+.order-even {
+    background: #c7d0da;
+    color:black;
+    padding-bottom: 5rem;    
+}
+
+.part-start {
+    font-family: Merriweather;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 3.5rem;
+    /*color:  #343a40;    */
+}
+
+.part-start h2 {
+    padding-top: 3rem;
+}
+
+.order-odd .part-start hr {
+    width: 10rem;
+    border-width: 0.15rem;
+    border-color: #343a40;   
+}
+
+.order-even .part-start hr {
+    width: 10rem;
+    border-width: 0.15rem;
+    border-color: black;   
+}
+
+.subtitleL {
+    text-align: center;
+    border-right: solid 0.2rem #343a40;
+}
+
+.subtitleLNoBorder {
+    text-align: left;
+    border: none;
+    margin-bottom: 2rem;
+}
+
+.subtitleR {
+    text-align: center;    
+}
+
+.subtitleRNoBorder {
+    text-align: left;
+}
+
+.textjustify {
+    text-align: justify;
+}
+
+.progress span {
+    padding-right: 2rem;
+}
+
+.progress-bar {
+    animation: progressBar;
+    animation-iteration-count: 1;
+    animation-duration: 3s;
+}
+
+.resp {
+    display: list-item;
+    list-style-type: disc;
+    list-style-position: inside; 
+}
+
+.education {    
+    margin-bottom: 1rem;
+}
+
+.section-symbol {
+    margin-right: 1rem;
+}
+
+.experience1 {
+    margin-bottom: 1rem;    
+}
+
+.experience1 h4 {
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+}
+
+.experience1 h5 {
+    margin-bottom: 1rem;
+}
+
+.experience2 h4 {
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+}
+
+.experience2 h5 {
+    margin-bottom: 1rem;
+}
+
+.contact-symbol {
+    margin-right: 0.3rem;
+}
+
+#mainNavbar .navbar-brand:hover {
+    color: blue;
+}
+
+#mainNavbar .nav-link:hover {
+    color: blue;
+}
+
+#lnkdn {
+    color: blue;
+    background: transparent;
+}
+
+#lnkdn:hover {
+    color: white;
+    background: transparent;    
+}
+
+#gthb {
+    color: black;
+    background: transparent;
+}
+
+#gthb:hover {
+    color: white;
+    background: transparent;    
+}
+
+#personal-photo {
+    max-width: 90%;
+    height: auto;
+    border-color: gray;
+    margin-bottom: 1rem;
+}
+
+#icon-span {
+    margin-right: 3rem;
+}
+
+#resume-image {
+    margin-right: 0.8rem;
+}
+
+#top-container {
+    padding-left: 0;
+    padding-right: 0;    
+}
+
+#jumbo {
+    /*background-image: url("https://images.unsplash.com/photo-1504164996022-09080787b6b3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");*/
+    background-size: 50rem;
+    margin-top: 1.5rem;
+    /*height: 20rem;*/
+    /*background-size: cover;*/
+    background-color: #f69655;
+    color: #343a40!important;    
+        
+}
+
+#contact-part {
+    background-color: #f69655;
+}
+
+#jumbtronname {
+    font-family: Merriweather;
+}
+
+
+/*Event changing classes*/
+
+
+/*Skills Progress bar Settings*/
+
+@keyframes progressBar {
+    0% {
+      width: 0%;
+    }
+    
+    100% {
+      width: style("width");
+    }
+}
