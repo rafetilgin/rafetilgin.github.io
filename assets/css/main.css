@@ -15,10 +15,18 @@ textarea {
 .site-icons {
     font-size: 2.2rem;
     border-radius: 50% !important;
-    transition: transform 1s;    
+    -webkit-transition: -webkit-transform 1s;
+    -moz-transition: -moz-transform 1s;
+    -o-transition: -o-transform 1s;
+    transition: -webkit-transform 1s;
+    transition: transform 1s;
 }
 
 .site-icons:hover {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
     transform: rotate(360deg);
 }
 
@@ -92,9 +100,13 @@ textarea {
 }
 
 .progress-bar {
-    animation: progressBar;
-    animation-iteration-count: 1;
-    animation-duration: 3s;
+    -webkit-animation: progressBar 3s 1;
+    -moz-animation: progressBar 3s 1;
+    -o-animation: progressBar 3s 1;
+    animation: progressBar 3s 1;
+    
+    /*animation-iteration-count: 1;
+    animation-duration: 3s;*/
 }
 
 .resp {
@@ -104,6 +116,15 @@ textarea {
 }
 
 .education {    
+    /*margin-bottom: 1rem;*/
+}
+
+.education h5 {
+    margin-bottom: 1rem;
+    height: 5rem;
+}
+
+.education h6 {
     margin-bottom: 1rem;
 }
 
@@ -118,19 +139,23 @@ textarea {
 .experience1 h4 {
     margin-bottom: 1.5rem;
     font-weight: bold;
+    height: 4rem;
 }
 
 .experience1 h5 {
     margin-bottom: 1rem;
+    height: 3rem;
 }
 
 .experience2 h4 {
     margin-bottom: 1.5rem;
     font-weight: bold;
+    height: 4rem;
 }
 
 .experience2 h5 {
     margin-bottom: 1rem;
+    height: 3rem;
 }
 
 .contact-symbol {
@@ -209,6 +234,35 @@ textarea {
 
 
 /*Skills Progress bar Settings*/
+@-webkit-keyframes progressBar {
+    0% {
+      width: 0%;
+    }
+    
+    100% {
+      width: style("width");
+    }
+}
+
+@-moz-keyframes progressBar {
+    0% {
+      width: 0%;
+    }
+    
+    100% {
+      width: style("width");
+    }
+}
+
+@-o-keyframes progressBar {
+    0% {
+      width: 0%;
+    }
+    
+    100% {
+      width: style("width");
+    }
+}
 
 @keyframes progressBar {
     0% {
