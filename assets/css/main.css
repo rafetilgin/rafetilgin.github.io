@@ -14,12 +14,20 @@ textarea {
 
 .site-icons {
     font-size: 2.2rem;
+    background: none;
+    background-color: none;
+    border: none;   
     border-radius: 50% !important;
     -webkit-transition: -webkit-transform 1s;
     -moz-transition: -moz-transform 1s;
     -o-transition: -o-transform 1s;
     transition: -webkit-transform 1s;
-    transition: transform 1s;
+    transition: transform 1s;    
+}
+
+.site-icons:focus, .site-icons:active {
+    outline: none !important;
+    box-shadow: none;
 }
 
 .site-icons:hover {
@@ -27,8 +35,15 @@ textarea {
     -moz-transform: rotate(360deg);
     -ms-transform: rotate(360deg);
     -o-transform: rotate(360deg);
-    transform: rotate(360deg);
+    transform: rotate(360deg);    
 }
+
+/*
+.btn:focus,.btn:active {
+    outline: none !important;
+    box-shadow: none;
+ }
+ */
 
 .jumbotron hr {
     border-color: white;
@@ -172,7 +187,7 @@ textarea {
 
 #lnkdn {
     color: blue;
-    background: transparent;
+    background: transparent;    
 }
 
 #lnkdn:hover {
