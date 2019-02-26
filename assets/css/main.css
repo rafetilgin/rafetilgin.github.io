@@ -12,10 +12,6 @@ textarea {
     resize: none;
 }
 
-.wrapper {
-    overflow-x: hidden;
-}
-
 .progress {
     margin-bottom: 1rem;
 }
