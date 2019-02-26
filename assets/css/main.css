@@ -1,8 +1,7 @@
 body {
     overflow-x: hidden;
     font-family: Roboto;
-    padding-bottom: 10rem;
-    position: fixed;    
+    padding-bottom: 10rem;    
 }
 
 textarea {
