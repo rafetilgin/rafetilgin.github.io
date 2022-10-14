@@ -24,7 +24,6 @@
         <!-- navbar links: github / linkedIn / section shortcuts -->
         <nav id="mainNavbar" class="navbar navbar-dark bg-dark navbar-expand-md fixed-top py-0">
             <a href="resume/Rafet_Resume.pdf" class="navbar-brand"><span><i class="far fa-file" id="resume-image"></i></span>RESUME</a>
-            <a href="asml/Asml_Rafet_webPasswd.zip" class="navbar-brand"></a>
             <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -64,12 +63,20 @@
                         <h1 class="display-4" id="jumbtronname">RAFET ILĞIN</h1>
                         <p class="lead">PASSIONATE, CO-WORKER, INNOVATIVE SOFTWARE ENGINEER<i class="section-symbol fas fa-laptop" style="margin-left:1.2rem"></i></p>
                         <hr class="my-4" id="seperator">
-                        <!-- <p>Embrace life and fate...</p> -->
-                        <a class="site-icons btn" id="lnkdn" href="https://www.linkedin.com/in/rafet-ilgin-96b79141/"><i class="fab fa-linkedin"></i></a>
-                        <span id="icon-span"></span>
-                        <a class="site-icons btn" id="gthb" href="https://github.com/rafetilgin"><i class="fab fa-github"></i></a>
-                    </div>
-                    
+                        <div class="row">
+                            <!-- <p>Embrace life and fate...</p> -->
+                            <a class="site-icons btn" id="lnkdn" href="https://www.linkedin.com/in/rafet-ilgin-96b79141/"><i class="fab fa-linkedin"></i></a>
+                            <span id="icon-span"></span>
+                            <a class="site-icons btn" id="gthb" href="https://github.com/rafetilgin"><i class="fab fa-github"></i></a>
+                        </div>
+                        <hr class="my-8" id="seperator">
+                        <div class="row">
+                            <!-- <p>Embrace life and fate...</p> -->
+                            <a id="isaqb" href="certificates/2201-CPSAFL-211090-EN.pdf"><i class="icon-isaqb"><img src="icons/cpsa-f-logo.png" class="icon-isaqb"></i></a>
+                            <span id="icon-span"></span>
+                            <a id="opst" href="certificates/Certificato di frequenza OPST RAFET ILGIN.PDF"><i class="icon-opst"><img src="icons/opst-150x150.png" class="icon-opst"></i></a>
+                        </div>                        
+                    </div>                    
                     <div class="col-lg-4">
                         <!-- Linkedin badge -->
                         <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="tr_TR" data-type="horizontal" data-theme="dark" data-vanity="rafet-ilgin-96b79141"><a class="LI-simple-link" href='https://tr.linkedin.com/in/rafet-ilgin-96b79141?trk=profile-badge'>Rafet ILGIN</a></div>
@@ -86,7 +93,7 @@
 
 
         <!-- section 1 profile -->
-        <section class="order-odd" id="profile-part">
+        <section class="order-odd container" id="profile-part">
 
             <!-- start for every section -->
             <div class="container part-start">
@@ -104,20 +111,23 @@
                     <div class="col-sm-6 col-md-9">
 
                         <p class="textjustify">
-                            Highly motivated, results-driven and reliable <strong>Senior Software Engineer</strong> with 12 years of experience within the same company.
+                            Highly motivated, results-driven and reliable <strong>Software Engineer</strong> with 15 years of experience.
                             Experienced in problem solving and working under pressure with critical deadlines. Collaborating with system design, QA and
                             production engineers for developing high quality, user-friendly and bug-free software.
                         </p>
 
+                        <p><br></p>
+
                         <p class="textjustify">
-                            Always eager to learn new things about professional interests which makes me achieve tough tasks quickly.
+                            Always eager to learn new things about professional interests which makes me achieve tough tasks.
                             Also being open minded to innovation I always try to follow trending/new topics/technologies about my profession.
     
                         </p>
 
+                        <p><br></p>
+
                         <p  class="textjustify">
-                            In my free time I mostly work on iOS app programming. I am programming under Xcode using Swift. I do not have any published applications yet.
-                            I also work on full-stack web development in my free time. I am yet complete beginner at Node JS, Express and MongoDB.
+                            In my free time I try to follow up with the trends.
 
 
                         </p>
@@ -128,7 +138,7 @@
         </section>
 
         <!-- section 2 skills -->
-        <section class="order-even" id="skills-part">
+        <section class="order-even container" id="skills-part">
 
             <!-- start for every section -->
             <div class="container part-start">
@@ -363,7 +373,7 @@
         </section>
 
         <!-- section 4 experience history -->
-        <section class="order-odd" id="experience-part">
+        <section class="order-odd container" id="experience-part">
 
             <!-- start for every section -->
             <div class="container part-start">
@@ -373,10 +383,21 @@
             <!-- end for every section -->
     
             <div class="container">
-                <div class="row">                
+                <div class="row"> 
+                    <div class="col-lg-6 experience1 mb-5">
+                        <h4>MEDICAL APPLICATIONS SOFTWARE ENGINEER</h4>                                               
+                        <h5>VARIAN MEDICAL SYSTEMS | DEC. 2019 - </h5>
+                        <p class="resp">Proton therapy imaging user applications development (new features and old code refactorings)</p>
+                        <p class="resp">Integration and unit test infrastructure development</p>
+                        <p class="resp">Automated test infrastructure development</p>
+                        <p class="resp">Requirement review, authoring</p>
+                        <p class="resp">Test case review, authoring and formal test execution </p>
+                        <p class="resp">Installation/maintanence of test environments (both hardware and software)</p>                                                
+                    </div>
+
                     <div class="col-lg-6 experience1 mb-5">
                         <h4>SENIOR TEST SYSTEMS DESIGN & DEVELOPMENT ENGINEER</h4>                                               
-                        <h5>ASELSAN INC. | JULY 2010 - </h5>
+                        <h5>ASELSAN INC. | JULY 2010 - DEC. 2019</h5>
                         <p class="resp">Test System Design Both Hardware and Automated Test Software</p>
                         <p class="resp">Test Systems Design for various Avionic LRU's</p>
                         <p class="resp">Software Programming C/C++ and C#</p>
@@ -399,7 +420,7 @@
         </section>
 
         <!-- section 5 education -->
-        <section class="order-even" id="education-part">
+        <section class="order-even container" id="education-part">
 
             <div class="container part-start">
                 <h2><i class="section-symbol fas fa-graduation-cap"></i>Education</h2>
@@ -410,10 +431,8 @@
                 <div class="row education" id="edu">
                     <div class="col-lg-4 mb-5">
                         <h5><strong>Ph.D.</strong> ELECTRICAL and ELECTRONICS ENGINEERING (3.28 / 4.00)</h5>
-                        <h6>
-                            <p>MIDDLE EAST TECHNICAL UNIVERSITY, ANKARA | 2012 - WITHDRAW 2015</p>
-                            <p><strong>Major:</strong> Control Theory & <strong>Minor:</strong> Power Systems</p>
-                        </h6>
+                        <h6>MIDDLE EAST TECHNICAL UNIVERSITY, ANKARA | 2012 - WITHDRAW 2015</h6>
+                        <h6><strong>Major:</strong> Control Theory & <strong>Minor:</strong> Power Systems</h6>
                         <p><strong>Thesis Subject:</strong> Design of Novel Navigation Filters and Conducting their Performance Tests in a Multi UAV System</p>                                
                     </div>
 
@@ -433,7 +452,7 @@
         </section>
 
         <!-- section 6 contact me -->
-        <section class="order-even" id="contact-part">
+        <section class="order-even container" id="contact-part">
 
                 <div class="container part-start">
                         <h2><i class="section-symbol fas fa-home"></i>Contact</h2>
@@ -448,12 +467,12 @@
                                 
                                 <div class="row">
                                     <div class="col-md-4"><p><i class="fas fa-map-marker-alt contact-symbol"></i><strong>Address :</strong></p></div>
-                                    <div class="col-md-8"><p>Konutkent, Cankaya ANKARA TURKIYE</p></div>
+                                    <div class="col-md-8"><p>Troisdorf, Germany</p></div>
                                 </div>
 
                                 <div class="row">
                                     <div class="col-md-4"><p><i class="fas fa-mobile-alt contact-symbol"></i><strong>Phone :</strong></p></div>
-                                    <div class="col-md-8"><p>+90 532 627 64 09</p></div>
+                                    <div class="col-md-8"><p>+49 175 734 47 99</p></div>
                                 </div>
                                 
                                 <div class="row">

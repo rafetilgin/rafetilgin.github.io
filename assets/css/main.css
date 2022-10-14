@@ -181,8 +181,31 @@ textarea {
     margin-right: 0.3rem;
 }
 
+.nav-item {
+    padding-left: 2.3rem
+}
+
+.icon-isaqb {
+    margin-top: 2rem;
+    filter:grayscale(1);  
+    opacity: 1;
+    height: 5rem;
+    width: 15rem;
+    display: block;    
+}
+
+.icon-opst {
+    height: 10rem;
+    width: 10rem;
+    display: block;
+}
+
 #mainNavbar .navbar-brand:hover {
-    color: blue;
+    color: blue;    
+}
+
+#mainNavbar .navbar-brand {
+    font-size: 2rem;    
 }
 
 #mainNavbar .nav-link:hover {
