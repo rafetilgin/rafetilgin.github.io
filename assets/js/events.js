@@ -20,5 +20,10 @@ $(window).resize(function() {
       $("#pfSkills").addClass("subtitleL");
       $("#sclSkills").removeClass("subtitleRNoBorder");
       $("#sclSkills").addClass("subtitleR");
-   }
+   }   
+})
+
+$(document).ready(function() {
+   
+   
 })

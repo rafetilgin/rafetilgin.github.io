@@ -200,6 +200,11 @@ textarea {
     display: block;
 }
 
+.form-elements {
+    height: 3rem;
+    font-size:1.7rem;    
+}
+
 #mainNavbar .navbar-brand:hover {
     color: blue;    
 }
