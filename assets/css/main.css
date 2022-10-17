@@ -91,6 +91,10 @@ textarea {
     /*color:  #343a40;    */
 }
 
+.part-start hr {    
+    margin: 0 auto;    
+}
+
 .part-start h2 {
     padding-top: 3rem;
 }
@@ -214,6 +218,15 @@ textarea {
     height: 10rem;
     width: 10rem;
     display: block;
+}
+
+.skills-bottom-header {
+    text-align: center;    
+}
+
+.skills-bottom {
+    text-align: left;    
+    margin-bottom: 2rem;
 }
 
 .form-elements {
