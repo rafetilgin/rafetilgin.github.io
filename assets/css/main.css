@@ -305,6 +305,11 @@ textarea {
     font-family: Merriweather;
 }
 
+.cert {
+    font-weight: bold;
+    font-size: 3rem;
+    margin-top: 1.5rem;
+}
 
 /*Event changing classes*/
 
